@@ -1,287 +1,732 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!----------STYLESHEETS-------->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>busicol</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <title>Toros | StakeHouse</title>
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
-    <main>
-        <section class="toros-banner ">
-            <div class="toros-slider owl-carousel">
-                <div class="slide-item" style="background-image: url(img/slider/slider-1.jpg);">
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-                </div>
-                <div class="slide-item" style="background-image: url(img/slider/slider-2.jpg);">
-
-                </div>
-                <div class="slide-item" style="background-image: url(img/slider/slider-3.jpg);">
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div class="header-top_area d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6 ">
+                            <div class="social_media_links">
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="short_contact_list">
+                                <ul>
+                                    <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
+                                    <li><a href="#"> <i class="fa fa-phone"></i> 1601-609 6780</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="toros-caption text-center">
-                <img src="img/section-1-logo.png" alt="" class="img-fluid">
-                <div class="col-md-8 offset-md-2 col-12">
-                    <p class="mt-md-5 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor.
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a class="active" href="index.html">home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="service.html">Services</a></li>
+                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="elements.html">elements</a></li>
+                                                    <li><a href="Portfolio.html">Portfolio</a></li>
+                                                    <li><a href="portfolio_details.html">Portfolio details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="Appointment">
+                                    <div class="search_button">
+                                        <a href="#">
+                                            <i class="ti-search"></i>
+                                        </a>
+                                    </div>
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a class="popup-with-form" href="#test-form">Get a Quote</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text ">
+                                <h3> Grow Big with <br>
+                                    Musicol Business </h3>
+                                <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
+                                    cumque nihil impedit quo minus.</p>
+                                <div class="video_service_btn">
+                                    <a href="#" class="boxed-btn3">Our Services</a>
+                                    <a href="#" class="boxed-btn3-white"> <i class="fa fa-play"></i>
+                                        See How it Work</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text ">
+                                <h3> Grow Big with <br>
+                                    Musicol Business </h3>
+                                <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
+                                    cumque nihil impedit quo minus.</p>
+                                <div class="video_service_btn">
+                                    <a href="#" class="boxed-btn3">Our Services</a>
+                                    <a href="#" class="boxed-btn3-white"> <i class="fa fa-play"></i>
+                                        See How it Work</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text ">
+                                <h3> Grow Big with <br>
+                                    Musicol Business </h3>
+                                <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
+                                    cumque nihil impedit quo minus.</p>
+                                <div class="video_service_btn">
+                                    <a href="#" class="boxed-btn3">Our Services</a>
+                                    <a href="#" class="boxed-btn3-white"> <i class="fa fa-play"></i>
+                                        See How it Work</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- service_area_start -->
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-50">
+                        <h3>Explore Our Solutions</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service service_bg_1">
+                        <div class="service_hover">
+                            <img src="img/svg_icon/legal-paper.svg" alt="">
+                            <h3>Invoicing</h3>
+                            <div class="hover_content">
+                                <div class="hover_content_inner">
+                                    <h4>Invoicing</h4>
+                                    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service service_bg_2">
+                        <div class="service_hover">
+                            <img src="img/svg_icon/case.svg" alt="">
+                            <h3>Business Growth</h3>
+                            <div class="hover_content">
+                                <div class="hover_content_inner">
+                                    <h4>Business Growth</h4>
+                                    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service service_bg_3">
+                        <div class="service_hover">
+                            <img src="img/svg_icon/survey.svg" alt="">
+                            <h3>Problem Solving</h3>
+                            <div class="hover_content">
+                                <div class="hover_content_inner">
+                                    <h4>Problem Solving</h4>
+                                    <p>These cases are perfectly simple and easy to distinguish. In a free hour power.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service_area_end -->
+
+    <!-- about  -->
+    <div class="about_area ">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters align-items-center">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about_image">
+                        <img src="img/about/about.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="about_info">
+                        <h3>The Largest Business Expert</h3>
+                        <p>These cases are perfectly simple and easy to distinguish. In a free hour, <br> when our power
+                            of choice is untrammelled and when nothing prevents <br> our being able to do what we like
+                            best.</p>
+                        <ul>
+                            <li> Apartments frequently or motionless. </li>
+                            <li> Duis aute irure dolor in reprehenderit in voluptate. </li>
+                            <li> Voluptatem quia voluptas sit aspernatur.</li>
+                        </ul>
+
+                        <div class="about_btn">
+                            <a class="boxed-btn3" href="#">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ about  -->
+
+    <!-- counter  -->
+    <div class="counter_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_counter text-center">
+                        <h3> <span class="counter">520</span> <span>+</span> </h3>
+                        <span>Total Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_counter text-center">
+                        <h3> <span class="counter">244</span> </h3>
+                        <span>On Going Projects</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_counter text-center">
+                        <h3> <span class="counter">95</span> <span>%</span> </h3>
+                        <span>Job Success</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ counter  -->
+
+
+    <!-- gallery -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-50">
+                    <h3>Hire Me </h3>
+                    <p>
+                    <div id="pph-hireme"></div>
                     </p>
+                    <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget'
+                        style='display: inline-block;'>
+                        <a itemprop='url' href=https://www.fiverr.com/talha_02422 rel="nofollow" target="_blank"
+                            style='display: inline-block;'>
+                            <div class='fiverr-seller-content'
+                                id='fiverr-seller-widget-content-2d3e88ed-2d4c-476a-bbcb-dcb6cc6c1147'
+                                itemprop='contentURL' style='display: none;'></div>
+                            <div id='fiverr-widget-seller-data' style='display: none;'>
+                                <div itemprop='name'>talha_02422</div>
+                                <div itemscope itemtype='http://schema.org/Organization'><span
+                                        itemprop='name'>Fiverr</span></div>
+                                <div itemprop='jobtitle'>Seller</div>
+                                <div itemprop='description'>I have strong experience in Web Development Field. I am
+                                    providing front-end related web services like PSD to HTML, Responsive landing page
+                                    design and static website design using HTML5, CSS3, BOOTSTRAP4. I am ready to start
+                                    making your unique website on time and within your budget.
+                                    So what are you waiting for? Please do not hesitate to contact me and get the
+                                    project done.</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <script id='fiverr-seller-widget-script-2d3e88ed-2d4c-476a-bbcb-dcb6cc6c1147'
+                        src='https://widgets.fiverr.com/api/v1/seller/talha_02422?widget_id=2d3e88ed-2d4c-476a-bbcb-dcb6cc6c1147'
+                        data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
+
                 </div>
-                <button class="btn btn-outline-light btn-location-locator mt-md-5 mt-2 ">store locator</button>
             </div>
-        </section>
-        <header class="header pb-3">
+        </div>
+    </div>
+    <div class="gallery_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-50">
+                        <h3>Our Recent Works</h3>
+                        <p>These cases are perfectly simple and easy to distinguish. In a free <br> hour, when our power
+                            of choice is untrammelled.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row grid">
+                <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/1.png" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat3 cat4 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/2.png" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/3.png" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-6 grid-item cat2 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/4.png" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
+                    <div class="single-gallery mb-20">
+                        <div class="portfolio-img">
+                            <img src="img/gallery/5.png" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <a href="portfolio_details.html" class="hover_inner">
+                                <h3>Product Branding</h3>
+                                <span>Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="More_Works_btn text-center">
+                        <a class="boxed-btn3-green-2" href="#">More Works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ gallery -->
+
+    <!-- about wrap  -->
+    <div class="about_wrap_area about_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_service_wrap text-center">
+                        <img src="img/svg_icon/controls.svg" alt="">
+                        <h3>Unlimited Control</h3>
+                        <p>These cases are perfectly simple and easy to </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_service_wrap text-center">
+                        <img src="img/svg_icon/bar-chart.svg" alt="">
+                        <h3>Rapidly Growth</h3>
+                        <p>These cases are perfectly simple and easy to </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_service_wrap text-center">
+                        <img src="img/svg_icon/puzzle.svg" alt="">
+                        <h3>Problem Solving</h3>
+                        <p>These cases are perfectly simple and easy to </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ about wrap  -->
+
+
+    <!-- financial_solution -->
+    <div class="financial_solution_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="financial_active owl-carousel">
+                        <div class="single_finalcial_wrap">
+                            <h3>Gives you the best Financial <br>
+                                solution for business</h3>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able to do what we like
+                                best.</p>
+                        </div>
+                        <div class="single_finalcial_wrap">
+                            <h3>Gives you the best Financial <br>
+                                solution for business</h3>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able to do what we like
+                                best.</p>
+                        </div>
+                        <div class="single_finalcial_wrap">
+                            <h3>Gives you the best Financial <br>
+                                solution for business</h3>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able to do what we like
+                                best.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="finance_thumb">
+                        <img src="img/about/finance.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ financial_solution -->
+
+    <div class="testmonial_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <div class="testmonial_active2 owl-carousel">
+                        <div class="single_slider text-center" data-dot='<img src="img/testmonial/1.png" alt="#" '>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able.</p>
+                            <div class="author_name text-center">
+                                <h4>Robert Jonson</h4>
+                                <span> Business Owner</span>
+                            </div>
+                        </div>
+                        <div class="single_slider text-center" data-dot='<img src="img/testmonial/1.png" alt="#" '>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able.</p>
+                            <div class="author_name text-center">
+                                <h4>Robert Jonson</h4>
+                                <span> Business Owner</span>
+                            </div>
+                        </div>
+                        <div class="single_slider text-center" data-dot='<img src="img/testmonial/1.png" alt="#" '>
+                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+                                of choice is untrammelled and when nothing prevents our being able.</p>
+                            <div class="author_name text-center">
+                                <h4>Robert Jonson</h4>
+                                <span> Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project  -->
+    <div class="project_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="project_info text-center">
+                        <h3>Do you Have any Project?</h3>
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
+                            cumque nihil impedit quo minus.</p>
+                        <a href="#" class="boxed-btn3-white">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ project  -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 m-0 p-0">
-                        <nav class="navbar navbar-expand-lg ">
-                            <a class="navbar-brand" href="#">
-                                <img src="img/toros-logo.png" width="75" alt="">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon top">
-                                </span>
-                                <span class=" navbar-toggler-icon middle">
-                                </span>
-                                <span class="navbar-toggler-icon bottom">
-                                </span>
-                            </button>
-                            <div class="collapse navbar-collapse text-white justify-content-md-end" id="navbarNav">
-                                <ul class="navbar-nav ">
-                                    <li class="nav-item active mr-md-3 mt-md-1  my-2">
-                                        <a class="nav-link p-0" href="#">ABOUT <span
-                                                class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item active mr-md-3 mt-md-1  my-2">
-                                        <a class="nav-link p-0" href="#">MENU</a>
-                                    </li>
-                                    <li class="nav-item active mr-md-3 mt-md-1  my-2">
-                                        <a class="nav-link p-0" href="#">CONTACT</a>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/footer_logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>
+                                Firmament morning sixth subdue darkness
+                                creeping gathered divide.
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
                                     </li>
                                     <li>
-                                        <button class="btn btn-outline-light btn-location-locator">
-                                            store locator
-                                        </button>
+                                        <a href="#">
+                                            <i class="ti-twitter-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
-                        </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Services
+                            </h3>
+                            <ul>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Consulting</a></li>
+                                <li><a href="#">Finance</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Useful Links
+                            </h3>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#"> Contact</a></li>
+                                <li><a href="#"> Free quote</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Address
+                            </h3>
+                            <ul>
+                                <li>200, D-block, Green lane USA</li>
+                                <li>+10 367 467 8934</li>
+                                <li><a href="#"> docmed@contact.com</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <section class="page-detail-content py-md-5 py-2">
-            <div class="container py-md-5 py-3 position-relative">
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
                 <div class="row">
-                    <div class="page-detail-image-1 ">
-                        <img src="img/overlay-blur-img.png" alt="" class="img-fluid ">
-                    </div>
-                    <div class="col-md-12 col-xl-6 text-white ">
-                        <h2 class="red-heading mb-md-5 my-3">
-                            INSPIRED, INFUSED<br>INCREDIBLE
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                            maecenas
-                            accumsan lacus vel facilisis. </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                            maecenas
-                            accumsan lacus vel facilisis.
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
-                        <button class="btn btn-outline-light btn-location-locator mt-md-5 mt-2 ">learn More</button>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="manu-section py-md-5">
-            <div class="container text-center  py-md-5 py-0">
-                <div class="my-md-5 my-4">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                    <div class="mt-md-5 mt-3">
-                        <button class="btn btn-outline-dark mb-3 mb-md-0  ">menu</button>
-                        <button class="btn btn-outline-dark mb-3 mb-md-0 ">store locator</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-detail-content py-md-5 py-0">
-            <div class="container py-md-5 pb-3 pt-0 position-relative text-white">
-                <div class="row">
-                    <div class="page-detail-image-2 ">
-                        <img src="img/bg-overlay.jpg" alt="" class="img-fluid ">
-                    </div>
-                    <div class="col-md-12 col-xl-6  offset-md-0 offset-xl-6 ">
-                        <h2 class="red-heading mb-md-5 my-3">
-                            INSPIRED, INFUSED<br>INCREDIBLE
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                            maecenas
-                            accumsan lacus vel facilisis. </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                            maecenas
-                            accumsan lacus vel facilisis.
-                        </p>
-                        <button class="btn btn-outline-light btn-location-locator mt-md-5 mt-2 ">learn More</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="">
-            <div class="row no-gutters">
-                <div class="col-md-6 two-col-sec-1 menu">
-                    <div class="menu-details py-5 mx-auto">
-                        <span class="p-0 m-0">MENU</span>
-                    </div>
-                </div>
-                <div class="col-md-6 two-col-sec-2 menu">
-                    <div class="menu-details py-5 mx-auto">
-                        <span class="p-0 m-0">MENU</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="py-md-5 py-2 rastaurant-locator-section">
-            <div class="container p-0">
-                <div class="text-center py-2 py-md-5">
-                    <img src="img/bg-logo-resturant-locator.png" class="img-fluid img-rasturant-locator">
-                    <h3 class="red-heading mb-md-4 mb-3">
-                        restaurant locator
-                    </h3>
-                    <div class="input-group col-md-6 offset-md-3 ">
-                        <input type="text" placeholder="Enter location or post code"
-                            class="form-control input-restaurant-locator" aria-label="Enter location"
-                            aria-describedby="basic-addon2">
-                        <span class="search-bar" id="basic-addon2"><a href=""><i
-                                    class="fas fa-search search icon"></i></a></span>
-                    </div>
-                </div>
-                <div class="py-md-5 text-light py-md-3 py-2">
-                    <h4 class="text-center">Our Locations</h4>
-                    <div class="row no-gutters mt-md-5 mt-3 text-center align-items-center">
-                        <div class="col-md-4 col-lg-2 col-location-list">
-                            <ul class="location-list">
-                                <li><a href="">Toros Sheffield</a></li>
-                                <li><a href="">Toros Conventry</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-2 location-item  col-location-list">
-                            <ul class="location-list">
-                                <li><a href="#">Toros Nottingham</a></li>
-                                <li><a href="">Toros Brandford</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-2 location-item col-location-list">
-                            <ul class="location-list">
-                                <li><a href="">Toros Newcastle</a></li>
-                                <li><a href="">Toros Bolton</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-2 location-item col-location-list">
-                            <ul class="location-list">
-                                <li><a href="">Toros Liverpool</a></li>
-                                <li><a href="">Toros Birmingham</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-2 location-item col-location-list ">
-                            <ul class="location-list">
-                                <li><a href="">Toros Harrow London</a></li>
-                                <li><a href="">Toros Leicester</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-lg-2 location-item ">
-                            <ul class="location-list">
-                                <li><a href="">Toros Manchester</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="follow-us py-md-5 my-md-5 my-3 py-3">
-            <div class="container text-white">
-                <h2 class="text-center mb-md-4 my-2">FOLLOW US ON<a href="https://www.instagram.com/toros_uk/" target="_blank">
-                        <span class="text-primary">&#64;TOROSSTEAKHOUSE</span></a>
-                </h2>
-                <div class="row no-gutters" id="instagram">
-
-                </div>
-        </section>
-    </main>
-    <footer class="footer py-md-5 py-3">
-        <div class="container text-center p-0">
-            <a href="#"><img src="img/toros-footer-logo.png" alt="" class="mb-md-5 mb-4" width="170px"></a>
-            <div class="footer-nav-links">
-                <a href="">ABOUT</a>
-
-                <a href="#">STORE LOCATOR</a>
-
-                <a href="#">BLOG</a>
-
-                <a href="#">FRANCHISE</a>
-
-                <a href="#">CONATACT</a>
-
-                <a href="#">MENU</a>
-            </div>
-            <div class="address-phone-details pt-4 ">
-                <div class="mb-3">
-                    <span class="mr-4 mx-1"><i class="fas fa-map-marked-alt"></i><a
-                            href="https://www.google.com/maps/place/9+Highfield+St,+Leicester+LE2+1EB,+UK/@52.6278491,-1.1215299,17z/data=!3m1!4b1!4m5!3m4!1s0x4877613b89a044b7:0xd1c5b825f6c8d9a0!8m2!3d52.6278459!4d-1.1193412"
-                            target="_blank">9 Highfield St, City Centre, Leicester, LE2
-                            1AB, UK</a></span>
-                    <span><i class="fas fa-phone-alt "></i><a href="tel:0116 254 9885">0116 254 9885</a></span>
-                </div>
-                <div class="timings">
-                    <span class="mr-3"><i class="far fa-clock"></i>Monday - friday : 9Am to 12pm</span><span><i
-                        class="far fa-clock"></i>Saturday - sunday : 9Am to 10pm</span>
-                </div>
-                <div class="social-icons my-md-5 my-3">
-                    <a href="#"><i class="fab fa-facebook mx-1"></i></a>
-                    <a href="#"><i class="fab fa-instagram mx-1"></i></a>
-                </div>
-                <div class="row ">
-                    <div class="col-md-4 offset-md-4">
-                        &copy; 2019 Toro’s SteakHouse. All Rights Reserved.
-                    </div>
-                    <div class="col-md-4">
-                        <span><a href="">Terms & conditions</a></span>
-                        <span class="float-right"><a href=""> privacy policy</a>
-                        </span>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <!--/ footer end  -->
 
-    <!----------------------------------------------SCRIPTS---------------------------------------------------------->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://kit.fontawesome.com/749fd01ab7.js" crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
+    <!-- link that opens popup -->
+
+    <!-- form itself end-->
+    <form id="test-form" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+            <div class="popup_inner">
+                <div class="popup_header">
+                    <h3>Get Free Quote</h3>
+                </div>
+                <div class="custom_form">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="col-xl-12">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-xl-12">
+                            <button type="submit" class="boxed-btn3">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- form itself end -->
+    <script type="text/javascript">
+        (function (d, s) {
+            var useSSL = 'https:' == document.location.protocol;
+            var js, where = d.getElementsByTagName(s)[0],
+                js = d.createElement(s);
+            js.src = (useSSL ? 'https:' : 'http:') + '//www.peopleperhour.com/hire/1783572227/5070237.js?width=300&height=255&orientation=vertical&theme=light&hourlies=693699&rnd=' + parseInt(Math.random() * 10000, 10);
+            try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
+        }(document, 'script'));
+    </script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
