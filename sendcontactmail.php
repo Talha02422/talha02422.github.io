@@ -4,7 +4,7 @@ session_start();
 /* ==========================  Define variables ========================== */
 #Your e-mail address
 
-define("__TO__", "talhaashfaqmirza16@gmail.com");
+define("__TO__", "talhaahmed02422@gmail.com");
 #Message subject
 define("__SUBJECT__", "Premier Relocation Services Form");
 #Success message
